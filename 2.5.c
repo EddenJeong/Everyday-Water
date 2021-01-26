@@ -23,14 +23,16 @@ int main(void)
     printf("\n");
 
     int a;
+    int b;
     do
     {
         a = get_int("Size: ");
+        b = get_int("Size: ");
     }
     while (a < 1);
     for(int l = 0; l < a; l++)
     {
-        for(int s = 0; s < a; s++)
+        for(int s = 0; s < b; s++)
         {
             printf("#");
         }
