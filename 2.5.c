@@ -21,7 +21,30 @@ int main(void)
         printf("?");
     }
     printf("\n");
+
+    int a;
+    do
+    {
+        a = get_int("Size: ");
+    }
+    while (a < 1);
+    for(int l = 0; l < a; l++)
+    {
+        for(int s = 0; s < a; s++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
 }
+
+
+
+
+
+
+
+
 
 
 void cough(int n)
